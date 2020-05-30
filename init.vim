@@ -10,6 +10,7 @@ set autoindent		"indent a new line the same amount as the line just typed
 set number		"add line numbers
 filetype plugin indent on	"allow auto-indenting depending on filetype
 syntax on	"syntax Highlighting
+set termguicolors
 
 
 """"""""""Vim Plug Begins Here""""""""
@@ -18,7 +19,9 @@ call plug#begin('~/.config/nvim/plugged')
 
 Plug 'morhetz/gruvbox'          "gruvbox theme
 Plug 'jiangmiao/auto-pairs'     "auto pairing
-Plug 'mattn/calender-vim'       "Calender Plugin
+Plug 'mattn/calendar-vim'       "Calender Plugin
+Plug 'vim-airline/vim-airline'      "airline
+
 
 call plug#end()
 
@@ -27,7 +30,8 @@ call plug#end()
 "Colorscheme
 set background=dark
 colorscheme gruvbox
+let g:airline_powerline_fonts = 1
 
 """"Custom Key Mapping""""
-" Remap escape
+"Remap escape
 inoremap jk <Esc>
