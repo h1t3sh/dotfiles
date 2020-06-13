@@ -20,6 +20,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 Plug 'morhetz/gruvbox'              "gruvbox theme
 Plug 'vim-airline/vim-airline'      "airline
+Plug 'jiangmiao/auto-pairs'     "auto pairing
 Plug 'joshdick/onedark.vim'         "one dark theme
 Plug 'mattn/calendar-vim'
 
@@ -63,8 +64,3 @@ nnoremap <Leader>8 :8b<CR>
 nnoremap <Leader>9 :9b<CR>
 nnoremap <Leader>0 :10b<CR>
 
-
-nnoremap <silent> [b :bprevious<CR>
-nnoremap <silent> ]b :bnext<CR>
-nnoremap <silent> [B :bfirst<CR>
-nnoremap <silent> ]B :blast<CR>
