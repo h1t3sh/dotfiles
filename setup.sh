@@ -12,8 +12,8 @@ if [[ -z "$GOPATH" ]]; then
                 case $choice in
                         yes)
                                 echo "You selecected to install go"
-                                #wget https://dl.google.com/go/go1.15.3.linux-amd64.tar.gz
-                                sudo tar -C /usr/local -xzf go1.15.3.linux-amd64.tar.gz
+                                #wget https://dl.google.com/go/go1.17.linux-amd64.tar.gz
+                                sudo tar -C /usr/local -xzf go1.17.linux-amd64.tar.gz
                                 export GOROOT=/usr/local/go
                                 export GOPATH=$HOME/go
                                 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
