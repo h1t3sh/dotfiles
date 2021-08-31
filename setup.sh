@@ -56,3 +56,33 @@ echo "Installing gospider"
 go get -u github.com/jaeles-project/gospider
 echo "Done"
 
+echo "Installing chaos.."
+GO111MODULE=on go get -v github.com/projectdiscovery/chaos-client/cmd/chaos
+
+echo "Installing subfinder.."
+GO111MODULE=on go get -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder
+
+echo "Installing assetfinder.."
+go get -u github.com/tomnomnom/assetfinder
+
+echo "Installing amass.."
+export GO111MODULE=on
+go get -v github.com/OWASP/Amass/v3/...
+
+# TODO: Install massdns first
+echo "Installing Shuffledns.."
+GO111MODULE=on go get -v github.com/projectdiscovery/shuffledns/cmd/shuffledns
+
+echo "Installing httpx.."
+GO111MODULE=on go get -v github.com/projectdiscovery/httpx/cmd/httpx
+
+echo "Installing wayback urls"
+go get github.com/tomnomnom/waybackurls
+
+echo "Installing gau.."
+GO111MODULE=on go get -u -v github.com/lc/gau
+
+
+
+
+
