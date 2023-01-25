@@ -1,5 +1,5 @@
 # dotfiles
-Minimal dotfiles for tmux and vim and zshrc.
+Minimal dotfiles for tmux and nvim and zshrc.
 
 Use this to deploy to kali, minimal for config for now, will add more now.
 
