@@ -1,11 +1,8 @@
 # dotfiles
 Minimal dotfiles for tmux and vim and zshrc.
 
-We'll use this as base and add features on the way ;)
+Use this to deploy to kali, minimal for config for now, will add more now.
 
--> Added a new ubuntu branch for now
-Font used in Putty -> Hack
-
-### End Goal
-Universal dotfiles for all setups (Centos, Ubuntu, Arch)
+#todo
+Migrate nvim config to lua comletly
 

@@ -49,7 +49,6 @@ Plug 'mattn/emmet-vim'       "emmet vim
 Plug 'joshdick/onedark.vim'  "one dark theme
 Plug 'morhetz/gruvbox'       "gruvbox theme
 Plug 'tomasiser/vim-code-dark'   "theme like VScode
-
 Plug 'vim-airline/vim-airline'      "airline
 Plug 'vim-airline/vim-airline-themes'   "airline themes
 
@@ -65,8 +64,8 @@ let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set background=dark
-colorscheme onedark
-"colorscheme gruvbox
+"colorscheme onedark
+colorscheme gruvbox
 "colorscheme codedark
 
 
