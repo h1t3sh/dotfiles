@@ -8,5 +8,5 @@ Font used in Putty -> Hack
 -> Added Kali Branch
 
 ### End Goal
-Universal dotfiles for all setups (Centos, Ubuntu, Arch)
+Universal dotfiles for all setups (Centos, Ubuntu, Arch,Kali)
 
